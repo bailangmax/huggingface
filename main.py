@@ -28,6 +28,7 @@ DISGUISE_NAMES = ['cache_manager', 'session_handler', 'task_worker', 'log_rotato
 
 # ============== Flask ==============
 app = Flask(__name__)
+application = app
 
 @app.route('/')
 def index():
