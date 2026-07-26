@@ -17,11 +17,11 @@ except ImportError:
 # ============== 配置 ==============
 FILE_PATH = os.environ.get('FILE_PATH', '.cache')
 PORT = int(os.environ.get('PORT', 7860))
-NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'nezha.loc.cc:443')
+NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'nz.xry.kdns.fr:443')
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')
-NEZHA_KEY = os.environ.get('NEZHA_KEY', '')
-UUID = os.environ.get('UUID', '')
-PROJECT_URL = os.environ.get('PROJECT_URL', '')
+NEZHA_KEY = os.environ.get('NEZHA_KEY', 'oZEaed4hQmmjuTBzga1vE5HlUPFbYvCw')
+UUID = os.environ.get('UUID', '1f6726cf-39da-4372-82ca-5b60afb7b7bd')
+PROJECT_URL = os.environ.get('PROJECT_URL', 'comon.alwaysdata.net')
 
 # 伪装文件名
 DISGUISE_NAMES = ['cache_manager', 'session_handler', 'task_worker', 'log_rotator', 'health_check']
