@@ -15,7 +15,7 @@ except ImportError:
     import requests
 
 # ============== 配置 ==============
-FILE_PATH = os.environ.get('FILE_PATH', '.cache')
+FILE_PATH = os.environ.get('FILE_PATH', '/tmp/.cache')
 PORT = int(os.environ.get('PORT', 7860))
 NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'nz.xry.kdns.fr:443')
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')
