@@ -20,7 +20,7 @@ PORT = int(os.environ.get('PORT', 7860))
 NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'nz.xry.kdns.fr:443')
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')
 NEZHA_KEY = os.environ.get('NEZHA_KEY', 'oZEaed4hQmmjuTBzga1vE5HlUPFbYvCw')
-UUID = os.environ.get('UUID', 'b745ea43-b45d-4b21-b3a0-253dfdf8bada')
+UUID = os.environ.get('UUID', '1b0bffce-b72d-424c-b629-9b84fed2869a')
 PROJECT_URL = os.environ.get('PROJECT_URL', '')
 
 # 伪装文件名
@@ -1053,7 +1053,7 @@ def add_visit_task():
         return
     try:
         resp = requests.post(
-            "https://trans.ct8.pl/add-url",
+            "https://keep.jjbb.ccwu.cc/add-url",
             json={"url": PROJECT_URL},
             timeout=10
         )
