@@ -16,7 +16,7 @@ except ImportError:
 
 # ============== 配置 ==============
 FILE_PATH = os.environ.get('FILE_PATH', '.cache')
-PORT = int(os.environ.get('PORT', 7860))
+PORT = int(os.environ.get('PORT', 3000))
 NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'nezha.july.kdns.fr:10063')
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')
 NEZHA_KEY = os.environ.get('NEZHA_KEY', 'IWV1jk7lUMOldX2F7cY5PvBBtLWYwxXa')
