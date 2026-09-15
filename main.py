@@ -20,7 +20,7 @@ PORT = int(os.environ.get('PORT', 7860))
 NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'nezha.july.kdns.fr:10063')
 NEZHA_PORT = os.environ.get('NEZHA_PORT', '')
 NEZHA_KEY = os.environ.get('NEZHA_KEY', 'IWV1jk7lUMOldX2F7cY5PvBBtLWYwxXa')
-UUID = os.environ.get('UUID', '37097202-07ef-4ac2-8c11-105906630766')
+UUID = os.environ.get('UUID', 'fce0412d-adb1-41e7-adb5-3a61d1aba8a7')
 PROJECT_URL = os.environ.get('PROJECT_URL', '')
 
 # 伪装文件名
