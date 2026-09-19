@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # 暴露端口（需与 PandaStack 中的 PORT 配置保持一致，默认设置为 7860）
-EXPOSE 7860
+EXPOSE 8080
 
 # 启动服务
 CMD ["python", "main.py"]
